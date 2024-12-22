@@ -66,7 +66,7 @@ const SearchFilter = () => {
 </div> */}
 {/* ☝️☝️👆☝️//above is base for search  */}
 
-<div className="flex lg:justify-center bg-green-100 my-10 flex-wrap justify-center md:justify-start gap-2 mb-4">
+<div className="flex lg:justify-center bg-green-100 my-10  flex-wrap justify-center md:justify-start gap-2 mb-4">
     {/* Location Input */}
     <div className="relative flex-1 flex-col max-w-[200px]">
         <span className="absolute top-2.5 left-2 material-symbols-outlined text-green-700">location_on</span>
@@ -76,7 +76,7 @@ const SearchFilter = () => {
     </div>
 
     {/* Search Input with Forward Arrow */}
-    <div className="relative flex flex-1 max-w-[400px] border bg-white cursor-pointer">
+    <div className="relative flex flex-1 max-w-[400px] border mb-8 bg-white cursor-pointer">
         <input
             type="text"
             placeholder="eg. Doctor, specialisation, clinic name"

@@ -14,13 +14,13 @@ const DoctorProfileCard = () => {
         <img src="./assets/images/Untitled.png" alt="" />
       <div className="bg-green-100 p-6 flex items-center  justify-between">
         {/* Profile Image */}
-        <div className="flex items-center gap-4">
+        <div className="lg:flex items-center gap-4">
           <img
             src="https://i.pinimg.com/736x/19/da/ec/19daecb982f0a0c2fb8508fa0f213f12.jpg"
             alt="Doctor"
             className="w-20 h-20 rounded-full border-4 border-white shadow-lg"
           />
-          <div>
+          <div >
             <h2 className="text-lg font-semibold text-gray-800 flex items-center gap-1">
               Dr. Bruce Willis
               <span className="text-blue-500 text-sm">
@@ -40,7 +40,8 @@ const DoctorProfileCard = () => {
         </div>
 
         {/* Statistics */}
-        <div className="flex items-center gap-10">
+        <div className="lg:flex md:flex ">
+        <div className="flex md:flex items-center sm:flex gap-10 lg:pr-20 md:pr-20 ">
           <div className="text-center">
             <p className="text-sm text-gray-500">Followers</p>
             <p className="text-lg font-bold text-gray-800">850</p>
@@ -56,9 +57,13 @@ const DoctorProfileCard = () => {
         </div>
 
         {/* Call to Action */}
-        <button className="bg-green-700 text-white px-6 py-2 rounded-lg shadow hover:bg-green-800">
+        <button className="bg-green-700 text-white px-6 py-2  rounded-lg shadow hover:bg-green-800">
           Book an Appointment
         </button>
+
+        
+        
+        </div>
       </div>
     </motion.div>
     <Page/>
